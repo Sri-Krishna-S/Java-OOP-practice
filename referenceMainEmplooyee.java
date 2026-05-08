@@ -60,7 +60,7 @@ public class EmployeeDemo {
         double da = sc.nextDouble();
         System.out.print("TA: ");
         double ta = sc.nextDouble();
-        sc.nextLine(); // ⚠️ Consume leftover newline after nextDouble()
+        sc.nextLine();
 
         return new Employee(name, id, bp, hra, da, ta);
     }
